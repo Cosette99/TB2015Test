@@ -1,4 +1,3 @@
-//GRIFFIN CHANGED THIS!!!!!!!1
 package org.usfirst.frc.team2083.robot;
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.Jaguar;
@@ -47,7 +46,7 @@ public class Robot extends IterativeRobot {
     		switch (autoLoopCounter)
     		{
     		
-    		case 1: myjRobot.set(-.4);
+    		case 1: myjRobot.set(-1);
     		break;
     		case 200: myjRobot.set(-.2);
     		break;
@@ -57,7 +56,7 @@ public class Robot extends IterativeRobot {
     		break;
     		case 800: myjRobot.set(.4);
     		break;
-    		case 900: myjRobot.set(.7);
+    		case 900: myjRobot.set(1.0);
     		break;
     		case 999: myjRobot.stopMotor();
     		break;
